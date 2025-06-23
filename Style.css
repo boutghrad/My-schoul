@@ -121,6 +121,30 @@ footer a {
 /* استجابة الجوال */
 @media (max-width: 600px) {
   nav ul {
+    .contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 500px;
+  margin: auto;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.contact-form button {
+  background-color: #2c3e50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
     flex-direction: column;
     gap: 10px;
   }
